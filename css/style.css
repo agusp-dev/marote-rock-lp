@@ -101,8 +101,7 @@ header{
 }
 .servicios{
 	text-align: center;
-	padding-top: 150px;
-	padding-bottom: 50px;
+	padding: 4rem 1.5rem;
 }
 .servicios img{
 	width: 40%;
@@ -131,8 +130,7 @@ header{
 
 footer{
 	background: #757575;
-	height: 50vh;
-	padding-top: 30px;
+	padding: 4rem 1.5rem;
 }
 footer h1{
 	text-align: center;
@@ -185,5 +183,4 @@ h1{
 footer{
 	padding-top: 10px;
 }
-
 }
