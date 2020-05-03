@@ -33,15 +33,45 @@ header{
 }
 
 .principal{
-	background: red;
 	height: 90vh;
 	background: url(../images/23926343_1661500030582540_5469621639768249700_o.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  z-index: -1;
 }
 
+.capa-oscura {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 90vh;
+}
+
+.caption {
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.caption h1 {
+  font-weight: 700;
+	font-size: 50px;
+	color: rgba(255,255,255,.7);
+  margin-bottom: 2rem;
+  letter-spacing: 1.4rem;
+}
+
+.caption h4 {
+  margin-bottom: 1.2rem;
+  letter-spacing: .2rem;
+}
+
+.caption p {
+  margin-bottom: 2.8rem;
+  letter-spacing: .05rem;
+}
 
 .vertical-centered-text {
   -ms-display: flex;
@@ -55,25 +85,19 @@ header{
 .cta{
 	text-align: center;
 }
-h1{
-	font-weight: 700;
-	font-size: 50px;
-	color: rgba(255,255,255,.7);
-}
 
 .orange{
-
-	background: #FF00FF;
+	background: #AC8B53;
 }
 
 .nosotros{
 	width: 100%;
-	height: 50vh;
 	text-align: center;
-	padding-top: 150px;
+	padding: 4rem 1.5rem;
 }
 .nosotros h1{
-	font-weight: 100;
+  font-weight: 100;
+  margin-bottom: 1.2rem;
 }
 .servicios{
 	text-align: center;
